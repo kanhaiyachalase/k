@@ -1,0 +1,77 @@
+#spage{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+#spage > div{
+	flex-shrink: 1;
+}
+
+#tafs{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+#school{
+	/*background-color: red;*/
+
+}
+
+#s2{
+	text-align: left;
+}
+
+#highschool{
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+
+#nsit{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+#college{
+	/*background-color: red;*/
+
+}
+
+#c2{
+	text-align: left;
+}
+
+#grad{
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+#eduside{
+	background-image: url("spage.jpg");
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 50%;
+
+}
+
+
+
+#cc{
+	/*background-color: green;*/
+}
+
+#sc{
+	/*background-color: red;*/
+}
+
+#hp{
+	align-self: flex-start;
+}

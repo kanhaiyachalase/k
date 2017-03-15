@@ -1,0 +1,19 @@
+#tpage{
+	display: flex;
+	flex-direction: row;
+
+}
+
+#skill{
+	background-color: green;
+
+	width: 50%;
+
+}
+
+#skillside{
+	background-image: url("tpage.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 50%;
+}

@@ -1,0 +1,24 @@
+
+body{
+	margin: 0px;
+}
+
+#fpage{
+	background-image: url("fpbg.jpg");
+	background-size: cover;
+	text-align: center;
+
+	
+}
+
+
+
+
+#image > img{
+	height: 300px;
+	padding-top: 10%;
+}
+
+#links{
+	padding-top: 5%;
+}
