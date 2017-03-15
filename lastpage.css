@@ -1,0 +1,59 @@
+#lastpage{
+	height: 90%;
+	display: flex;
+	flex-direction: row;
+
+}
+
+
+#ctitle{
+	padding-left: 4.9%;
+	padding-right: 4.9%;
+	padding-top: 4%;
+}
+
+#details{
+	padding-left: 4.9%;
+	padding-right: 4.9%;
+	padding-top: 4%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	line-height: 100%;
+	vertical-align: middle;
+}
+
+#detailsa{
+	display: flex;
+	flex-direction: row;
+}
+
+#add{
+	line-height: 40px;
+	vertical-align: middle;
+	padding-left: 1%;
+	/*background-color: red;*/
+}
+
+#detailsb{
+	display: flex;
+	flex-direction: row;
+}
+
+#mail{
+	line-height: 40px;
+	vertical-align: middle;
+	padding-left: 1%;
+	/*background-color: red;*/
+}
+#detailsc{
+	display: flex;
+	flex-direction: row;
+}
+
+#tele{
+	line-height: 40px;
+	vertical-align: middle;
+	padding-left: 1%;
+	/*background-color: red;*/
+}

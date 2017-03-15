@@ -1,19 +1,24 @@
 #tpage{
+	height: 110%;
+	padding: 3%;
+}
+
+#ttitle{
+	width: 100%;
+	height: 10%;
+	/*background-color: red;*/
+}
+
+#tcon{
+	width: 100%;
+	height: 100%;
+	/*background-color: green;*/
 	display: flex;
-	flex-direction: row;
-
+	flex-wrap: wrap;
 }
 
-#skill{
-	background-color: green;
-
+#tcon>div{
 	width: 50%;
-
+	height: 15%;
 }
 
-#skillside{
-	background-image: url("tpage.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 50%;
-}

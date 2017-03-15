@@ -17,6 +17,7 @@
 
 #school{
 	/*background-color: red;*/
+	width: 70%;
 
 }
 
@@ -38,7 +39,7 @@
 }
 
 #college{
-	/*background-color: red;*/
+	width: 70%;
 
 }
 
@@ -65,13 +66,63 @@
 
 
 #cc{
-	/*background-color: green;*/
+	height: 55%;
+	width: 90%;
 }
 
 #sc{
-	/*background-color: red;*/
+	height: 55%;
+	width: 90%;
 }
 
 #hp{
 	align-self: flex-start;
 }
+
+#edutitle{
+	padding-left: 4.9%;
+	padding-right: 4.9%;
+}
+
+#tafs{
+	padding-left: 4.9%;
+	padding-right: 4.9%;
+}
+
+#nsit{
+	padding-left: 4.9%;
+	padding-right: 4.9%;
+}
+
+#s1{
+	padding-left: 4.9%;
+}
+
+#c1{
+	padding-left: 4.9%;
+}
+#s2{
+	padding-left: 4.9%;
+}
+
+#c2{
+	padding-left: 4.9%;
+}
+
+#ccd{
+
+}
+
+
+
+#hp{
+	padding-left: 61%;
+}
+
+#fp{
+	padding-left: 86%;
+}
+
+
+
+
