@@ -34,20 +34,10 @@ ctx.strokeText('100%', 130, 80);
 
 
 
-var ccd = document.getElementById("ccd");
-var scd = document.getElementById("scd");
-ccd.style.paddingTop = screen.height*(0.15) + "px";
-scd.style.paddingTop = screen.height*(0.15) + "px";
 
 
 
-var hp = document.getElementById("hp");
 
-hp.style.paddingTop = screen.height*(0.239) + "px";
-
-var fp = document.getElementById("fp");
-
-fp.style.paddingTop = screen.height*(0.239) + "px";
 
 
 
