@@ -1,7 +1,7 @@
 #spage{
 	display: flex;
 	flex-direction: row;
-	height: 70%;
+	height: 400px;
 	width: 100%;
 }
 
@@ -18,13 +18,13 @@
 
 
 #cc{
-	height: 40%;
-	width: 90%;
+	height: 150px;
+	width: 300px;
 }
 
 #sc{
-	height: 40%;
-	width: 90%;
+	height: 150px;
+	width: 300px;
 }
 
 #education{
@@ -61,20 +61,44 @@
 	width: 60%;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     #spage{
     	flex-direction: column;
-    	height: 160%;
+    	height: 800px;
     }
 
     #eduside{
     	width: 100%;
-    	height: 50%;
+    	height: 400px;
     }
 
     #education{
     	width: 90%;
-    	height: 50%;
+    	height: 400px;
+    }
+
+}
+
+
+@media only screen and (max-width: 674px) {
+    
+    #edusidea > div{
+    	width: 100%;
+    
+    }
+
+    #edusidea{
+    	width: 100%;
+    	height: 100%;
+    	flex-direction: column;
+    	flex-wrap: wrap;
+    }
+
+    #spage{
+    	height: 1000px;
+    }
+    #eduside{
+    	height: 450px;
     }
 
 }
