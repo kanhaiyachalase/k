@@ -1,26 +1,3 @@
-document.getElementById("spage").style.height = screen.height*(0.5) + "px";
-
-document.getElementById("edutitle").style.paddingTop=screen.height*(0.8)*(0.1)+"px";
-
-
-document.getElementById("tafs").style.paddingTop=screen.height*(0.8)*(0.01)+"px";
-
-document.getElementById("tafs").style.height = screen.height*(0.8)*(0.18) + "px";
-
-document.getElementById("highschool").style.lineHeight = screen.height*(0.8)*(0.18) + "px";
-
-
-document.getElementById("school").style.width = screen.width*(0.49)*(0.67) + "px";
-
-
-
-
-
-document.getElementById("nsit").style.paddingTop=screen.height*(0.8)*(0.01)+"px";
-
-document.getElementById("nsit").style.height = screen.height*(0.8)*(0.18) + "px";
-
-document.getElementById("grad").style.lineHeight = screen.height*(0.8)*(0.18) + "px";
 
 
 

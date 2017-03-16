@@ -1,0 +1,45 @@
+#connect{
+	height: 50%;
+	width: 100%;
+	display: flex;
+}
+
+#conside{
+	width: 50%;
+	height: 100%;
+	/*background-color: red;*/
+	background-image: url("connect.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#conside > div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#conside > div > div {
+	width: 15%;
+}
+
+#con{
+	width: 50%;
+	height: 100%;
+	
+	/*background-color: green;*/
+}
+
+#contitle{
+	padding: 3%;
+}
+
+#live{
+	padding: 3%;
+
+	
+
+}
