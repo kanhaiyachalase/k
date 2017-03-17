@@ -11,7 +11,7 @@
 
 #tcon{
 	width: 100%;
-	height: 100%;
+	height: 800px;
 	/*background-color: green;*/
 	display: flex;
 	flex-wrap: wrap;
@@ -19,7 +19,7 @@
 
 #tcon>div{
 	width: 50%;
-	height: 15%;
+	height: 100px;
 }
 
 #tcon > div > img{
@@ -33,11 +33,13 @@
 	#tpage{
 		height: 1700px;
 	}
-
+	#tcon{
+		height:  1680px;
+	}
 
 	#tcon>div{
 		width: 80%;
-		height: 6%;
+		height: 110px;
 		margin-bottom: 0.5%;
 	}
 
@@ -52,10 +54,12 @@
 		height: 1700px;
 	}
 
-
+	#tcon{
+		height:  1680px;
+	}
 	#tcon>div{
 		width: 100%;
-		height: 7%;
+		height: 80px;
 		margin-bottom: 0.5%;
 	}
 
@@ -66,13 +70,16 @@
     
     
 	#tpage{
-		height: 1400px;
+		height: 1700px;
 	}
 
+#tcon{
+		height:  1680px;
+	}
 	#tcon>div{
 		width: 80%;
-		height: 6%;
-		margin-bottom: 0.5%;
+		height: 60px;
+		margin-bottom: 0.2%;
 	}
 
 
@@ -82,12 +89,14 @@
     
     
 	#tpage{
-		height: 1400px;
+		height: 1700px;
 	}
-
+#tcon{
+		height:  1680px;
+	}
 	#tcon>div{
 		width: 100%;
-		height: 6%;
+		height: 55px;
 		margin-bottom: 0.5%;
 	}
 
@@ -98,28 +107,12 @@
     
     
 	#tpage{
-		height: 1000px;
+		height: 1700px;
 	}
 
 	#tcon>div{
 		width: 100%;
-		height: 7%;
-		margin-bottom: 0.5%;
-	}
-
-
-}
-
-@media only screen and (max-width: 370px) {
-    
-    
-	#tpage{
-		height: 800px;
-	}
-
-	#tcon>div{
-		width: 100%;
-		height: 7%;
+		height: 50px;
 		margin-bottom: 0.5%;
 	}
 
