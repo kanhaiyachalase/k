@@ -49,8 +49,10 @@
 }
 #detailsc{
 	display: flex;
+
 	flex-direction: row;
 }
+
 
 #tele{
 	line-height: 40px;
@@ -67,6 +69,9 @@
 #mapside{
 	height: 100%;
 	width: 50%;
+}
+.lai{
+	height: 30px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -87,10 +92,13 @@
 		height: 600px;
 	}
 	
+	.lai{
+		height: 45px;
+	}
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
     
 	#details{
 		flex-direction: column;
@@ -103,7 +111,9 @@
 		flex-direction: row;
 		justify-content: space-between;
 	}
-
+	.lai{
+		height: 30px;
+	}
 
 
 }
@@ -114,6 +124,8 @@
 		font-size: 15px;
 	}
 
-
+	.lai{
+		height: 20px;
+	}
 
 }
